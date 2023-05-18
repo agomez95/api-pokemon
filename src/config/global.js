@@ -22,7 +22,8 @@ const cargarVariable = (variable, required = false) => {
 // en el objecto 'config' almacenamos nuestras variables globales
 const config = {
     port: cargarVariable('PORT', true),
-    api: cargarVariable('API', true)
+    api: cargarVariable('API', true),
+    mongodb: cargarVariable('DB', true)
 };
 
 module.exports = config;
