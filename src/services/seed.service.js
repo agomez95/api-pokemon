@@ -1,7 +1,7 @@
 'use strict';
 
 const axios = require('axios');
-const { convertirTipo } = require('../helpers/convertTypes');
+const { convertirTipo } = require('../utils/convertTypes');
 
 const ModuleError = require('../utils/moduleError');
 
