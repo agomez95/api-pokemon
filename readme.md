@@ -1,7 +1,7 @@
 ## Instalacion
 
 ```bash
-$ npm i
+npm i
 ```
 
 ## Importante 1
@@ -10,12 +10,12 @@ $ npm i
 
 ```bash 
 # este es el comando que debe ser ejecutado antes que el del servidor y usado de igual forma en la ejecucion del comando principal
-$ source scripts/env.sh
+source scripts/env.sh
 ```
 * Este es el comando de Mac:
 ```bash
 # este es el comando que debe ser acompañado en el script de ejecución del servidor nodemon 
-$ . ./scripts/sh.sh
+. ./scripts/sh.sh
 ```
 
 ## Importante 2
@@ -23,12 +23,12 @@ $ . ./scripts/sh.sh
 * Al ser un api que sera importando data de una api externa en un contenedor se debe consider lo siguiente:
 ```bash
 # comando para borrar cualquier carpeta de mongo(base de datos elegida para propositos demostrativos de este proyecto) 
-$ rm -r mongo
+rm -r mongo
 ```
 * Ejecutado el comando de borrado, ejecutamos el comando para crear el contenedor Docker con la base de datos de mongo
 ```bash
 # este es el comando que debe ser acompañado por un node o nodemon a su costado 
-$ npm run docker
+npm run docker
 ```
 
 ## Ejecutar
@@ -37,11 +37,11 @@ $ npm run docker
 
 ```bash
 # Window - Git Bash
-$ npm run local:win
+npm run local:win
 ```
 * En MacOs seria así
 
 ```bash
 # MacOS - Bash
-$ npm run local:mac
+npm run local:mac
 ```
