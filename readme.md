@@ -45,3 +45,25 @@ npm run local:win
 # MacOS - Bash
 npm run local:mac
 ```
+
+## End-points
+
+### seed - pokemon:
+* http://localhost:3000/seed 
+* Postman: {{host}}seed
+<image src="https://raw.githubusercontent.com/agomez95/api-pokemon/main/imgs/seed%20-%20pokemon.PNG" alt="SeedPokemon">
+
+### getAll - pokemon:
+* http://localhost:3000/pokemon/ 
+* Postman: {{host}}pokemon
+<image src="https://raw.githubusercontent.com/agomez95/api-pokemon/main/imgs/getAll%20-%20pokemon.PNG" alt="GetAllPokemon">
+
+### getAllByName - pokemon:
+* http://localhost:3000/pokemon/nombre
+* Postman: {{nombre}}
+<image src="https://raw.githubusercontent.com/agomez95/api-pokemon/main/imgs/getAllByName%20-%20pokemon.PNG" alt="GetAllByNamePokemon">
+
+### getAllByType - pokemon:
+* http://localhost:3000/pokemon/tipo
+* Postman: {{tipo}}
+<image src="https://raw.githubusercontent.com/agomez95/api-pokemon/main/imgs/getAllByType%20-%20pokemon.PNG" alt="GetAllByTypePokemon">
