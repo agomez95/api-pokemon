@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "cd3cf2e4-79db-44de-bae8-574c206f7b1a",
+		"name": "api - pokemon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAll - pokemon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}pokemon",
+					"host": [
+						"{{host}}pokemon"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seed - pokemon",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}seed",
+					"host": [
+						"{{host}}seed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllByType - pokemon",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipo\": \"fuego\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{tipo}}",
+					"host": [
+						"{{tipo}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllByName - pokemon",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"absol\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{nombre}}",
+					"host": [
+						"{{nombre}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
