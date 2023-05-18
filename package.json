@@ -1,0 +1,19 @@
+{
+  "name": "api-pokemon",
+  "version": "1.0.0",
+  "description": "api based in pokeapi seeded in docker container",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agomez95/api-pokemon.git"
+  },
+  "author": "agomez95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agomez95/api-pokemon/issues"
+  },
+  "homepage": "https://github.com/agomez95/api-pokemon#readme"
+}
